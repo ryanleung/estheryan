@@ -1,0 +1,643 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		474BE0EF1776D05500A07865 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 474BE0EE1776D05500A07865 /* UIKit.framework */; };
+		474BE0F11776D05500A07865 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 474BE0F01776D05500A07865 /* Foundation.framework */; };
+		474BE0F31776D05500A07865 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 474BE0F21776D05500A07865 /* CoreGraphics.framework */; };
+		474BE0F91776D05500A07865 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 474BE0F71776D05500A07865 /* InfoPlist.strings */; };
+		474BE0FB1776D05500A07865 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 474BE0FA1776D05500A07865 /* main.m */; };
+		474BE0FF1776D05500A07865 /* ERAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 474BE0FE1776D05500A07865 /* ERAppDelegate.m */; };
+		474BE1011776D05500A07865 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 474BE1001776D05500A07865 /* Default.png */; };
+		474BE1031776D05500A07865 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 474BE1021776D05500A07865 /* Default@2x.png */; };
+		474BE1051776D05500A07865 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 474BE1041776D05500A07865 /* Default-568h@2x.png */; };
+		474BE1081776D05600A07865 /* ERViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 474BE1071776D05600A07865 /* ERViewController.m */; };
+		474BE10B1776D05600A07865 /* ERViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 474BE1091776D05600A07865 /* ERViewController_iPhone.xib */; };
+		474BE10E1776D05600A07865 /* ERViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 474BE10C1776D05600A07865 /* ERViewController_iPad.xib */; };
+		474BE1161776D05600A07865 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 474BE1151776D05600A07865 /* SenTestingKit.framework */; };
+		474BE1171776D05600A07865 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 474BE0EE1776D05500A07865 /* UIKit.framework */; };
+		474BE1181776D05600A07865 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 474BE0F01776D05500A07865 /* Foundation.framework */; };
+		474BE1201776D05600A07865 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 474BE11E1776D05600A07865 /* InfoPlist.strings */; };
+		474BE1231776D05600A07865 /* EstheryanTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 474BE1221776D05600A07865 /* EstheryanTests.m */; };
+		474BE12F1776D84000A07865 /* ERWineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 474BE12D1776D84000A07865 /* ERWineViewController.m */; };
+		474BE1301776D84000A07865 /* ERWineViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 474BE12E1776D84000A07865 /* ERWineViewController.xib */; };
+		474BE1341776D84D00A07865 /* ERCheeseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 474BE1321776D84D00A07865 /* ERCheeseViewController.m */; };
+		474BE1351776D84D00A07865 /* ERCheeseViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 474BE1331776D84D00A07865 /* ERCheeseViewController.xib */; };
+		474BE13B1776DEBE00A07865 /* brie1.png in Resources */ = {isa = PBXBuildFile; fileRef = 474BE13A1776DEBE00A07865 /* brie1.png */; };
+		474BE13D1776DEE500A07865 /* Unusual-Wine-Food-Pairings-.png in Resources */ = {isa = PBXBuildFile; fileRef = 474BE13C1776DEE500A07865 /* Unusual-Wine-Food-Pairings-.png */; };
+		47A21EFB178E285D00BA4E15 /* ERPicturesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 47A21EF9178E285D00BA4E15 /* ERPicturesViewController.m */; };
+		47A21EFC178E285D00BA4E15 /* ERPicturesViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 47A21EFA178E285D00BA4E15 /* ERPicturesViewController.xib */; };
+		47A21F00178F852F00BA4E15 /* ERWineToCheeseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 47A21EFE178F852F00BA4E15 /* ERWineToCheeseViewController.m */; };
+		47A21F01178F852F00BA4E15 /* ERWineToCheeseViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 47A21EFF178F852F00BA4E15 /* ERWineToCheeseViewController.xib */; };
+		47A21F05178F853900BA4E15 /* ERCheeseToWineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 47A21F03178F853900BA4E15 /* ERCheeseToWineViewController.m */; };
+		47A21F06178F853900BA4E15 /* ERCheeseToWineViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 47A21F04178F853900BA4E15 /* ERCheeseToWineViewController.xib */; };
+		47A21F09178FAC9300BA4E15 /* ERWineCheesePairings.m in Sources */ = {isa = PBXBuildFile; fileRef = 47A21F08178FAC9300BA4E15 /* ERWineCheesePairings.m */; };
+		47A21F0B179128E000BA4E15 /* wooden-background.png in Resources */ = {isa = PBXBuildFile; fileRef = 47A21F0A179128E000BA4E15 /* wooden-background.png */; };
+		47A21F141792530F00BA4E15 /* newWineIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 47A21F131792530F00BA4E15 /* newWineIcon.png */; };
+		47A21F161792535400BA4E15 /* newWineIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 47A21F151792535400BA4E15 /* newWineIcon@2x.png */; };
+		47A21F181792535E00BA4E15 /* newWineIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 47A21F171792535E00BA4E15 /* newWineIcon.png */; };
+		47A21F1A1792536200BA4E15 /* newWineIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 47A21F191792536200BA4E15 /* newWineIcon@2x.png */; };
+		47A21F2017925EC700BA4E15 /* ERWineCheesePageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 47A21F1E17925EC700BA4E15 /* ERWineCheesePageViewController.m */; };
+		47A21F2117925EC700BA4E15 /* ERWineCheesePageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 47A21F1F17925EC700BA4E15 /* ERWineCheesePageViewController.xib */; };
+		47A21F26179280A800BA4E15 /* cheeseSelectedPage.png in Resources */ = {isa = PBXBuildFile; fileRef = 47A21F25179280A800BA4E15 /* cheeseSelectedPage.png */; };
+		47A21F28179280B000BA4E15 /* wineSelectedPage.png in Resources */ = {isa = PBXBuildFile; fileRef = 47A21F27179280B000BA4E15 /* wineSelectedPage.png */; };
+		47A21F2A179280B700BA4E15 /* switchWCselected.png in Resources */ = {isa = PBXBuildFile; fileRef = 47A21F29179280B700BA4E15 /* switchWCselected.png */; };
+		47A21F2C179280BD00BA4E15 /* switchWCunselected.png in Resources */ = {isa = PBXBuildFile; fileRef = 47A21F2B179280BD00BA4E15 /* switchWCunselected.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		474BE1191776D05600A07865 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 474BE0E31776D05500A07865 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 474BE0EA1776D05500A07865;
+			remoteInfo = Estheryan;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		474BE0EB1776D05500A07865 /* Estheryan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Estheryan.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		474BE0EE1776D05500A07865 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		474BE0F01776D05500A07865 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		474BE0F21776D05500A07865 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		474BE0F61776D05500A07865 /* Estheryan-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Estheryan-Info.plist"; sourceTree = "<group>"; };
+		474BE0F81776D05500A07865 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		474BE0FA1776D05500A07865 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		474BE0FC1776D05500A07865 /* Estheryan-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Estheryan-Prefix.pch"; sourceTree = "<group>"; };
+		474BE0FD1776D05500A07865 /* ERAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ERAppDelegate.h; sourceTree = "<group>"; };
+		474BE0FE1776D05500A07865 /* ERAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ERAppDelegate.m; sourceTree = "<group>"; };
+		474BE1001776D05500A07865 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		474BE1021776D05500A07865 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		474BE1041776D05500A07865 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		474BE1061776D05600A07865 /* ERViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ERViewController.h; sourceTree = "<group>"; };
+		474BE1071776D05600A07865 /* ERViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ERViewController.m; sourceTree = "<group>"; };
+		474BE10A1776D05600A07865 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ERViewController_iPhone.xib; sourceTree = "<group>"; };
+		474BE10D1776D05600A07865 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ERViewController_iPad.xib; sourceTree = "<group>"; };
+		474BE1141776D05600A07865 /* EstheryanTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EstheryanTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		474BE1151776D05600A07865 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		474BE11D1776D05600A07865 /* EstheryanTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "EstheryanTests-Info.plist"; sourceTree = "<group>"; };
+		474BE11F1776D05600A07865 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		474BE1211776D05600A07865 /* EstheryanTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EstheryanTests.h; sourceTree = "<group>"; };
+		474BE1221776D05600A07865 /* EstheryanTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EstheryanTests.m; sourceTree = "<group>"; };
+		474BE12C1776D84000A07865 /* ERWineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ERWineViewController.h; sourceTree = "<group>"; };
+		474BE12D1776D84000A07865 /* ERWineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ERWineViewController.m; sourceTree = "<group>"; };
+		474BE12E1776D84000A07865 /* ERWineViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ERWineViewController.xib; sourceTree = "<group>"; };
+		474BE1311776D84D00A07865 /* ERCheeseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ERCheeseViewController.h; sourceTree = "<group>"; };
+		474BE1321776D84D00A07865 /* ERCheeseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ERCheeseViewController.m; sourceTree = "<group>"; };
+		474BE1331776D84D00A07865 /* ERCheeseViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ERCheeseViewController.xib; sourceTree = "<group>"; };
+		474BE13A1776DEBE00A07865 /* brie1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = brie1.png; sourceTree = "<group>"; };
+		474BE13C1776DEE500A07865 /* Unusual-Wine-Food-Pairings-.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Unusual-Wine-Food-Pairings-.png"; sourceTree = "<group>"; };
+		47A21EF8178E285D00BA4E15 /* ERPicturesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ERPicturesViewController.h; sourceTree = "<group>"; };
+		47A21EF9178E285D00BA4E15 /* ERPicturesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ERPicturesViewController.m; sourceTree = "<group>"; };
+		47A21EFA178E285D00BA4E15 /* ERPicturesViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ERPicturesViewController.xib; sourceTree = "<group>"; };
+		47A21EFD178F852F00BA4E15 /* ERWineToCheeseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ERWineToCheeseViewController.h; sourceTree = "<group>"; };
+		47A21EFE178F852F00BA4E15 /* ERWineToCheeseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ERWineToCheeseViewController.m; sourceTree = "<group>"; };
+		47A21EFF178F852F00BA4E15 /* ERWineToCheeseViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ERWineToCheeseViewController.xib; sourceTree = "<group>"; };
+		47A21F02178F853900BA4E15 /* ERCheeseToWineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ERCheeseToWineViewController.h; sourceTree = "<group>"; };
+		47A21F03178F853900BA4E15 /* ERCheeseToWineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ERCheeseToWineViewController.m; sourceTree = "<group>"; };
+		47A21F04178F853900BA4E15 /* ERCheeseToWineViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ERCheeseToWineViewController.xib; sourceTree = "<group>"; };
+		47A21F07178FAC9300BA4E15 /* ERWineCheesePairings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ERWineCheesePairings.h; sourceTree = "<group>"; };
+		47A21F08178FAC9300BA4E15 /* ERWineCheesePairings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ERWineCheesePairings.m; sourceTree = "<group>"; };
+		47A21F0A179128E000BA4E15 /* wooden-background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "wooden-background.png"; sourceTree = "<group>"; };
+		47A21F131792530F00BA4E15 /* newWineIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = newWineIcon.png; sourceTree = "<group>"; };
+		47A21F151792535400BA4E15 /* newWineIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "newWineIcon@2x.png"; sourceTree = "<group>"; };
+		47A21F171792535E00BA4E15 /* newWineIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = newWineIcon.png; sourceTree = "<group>"; };
+		47A21F191792536200BA4E15 /* newWineIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "newWineIcon@2x.png"; sourceTree = "<group>"; };
+		47A21F1D17925EC700BA4E15 /* ERWineCheesePageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ERWineCheesePageViewController.h; sourceTree = "<group>"; };
+		47A21F1E17925EC700BA4E15 /* ERWineCheesePageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ERWineCheesePageViewController.m; sourceTree = "<group>"; };
+		47A21F1F17925EC700BA4E15 /* ERWineCheesePageViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ERWineCheesePageViewController.xib; sourceTree = "<group>"; };
+		47A21F25179280A800BA4E15 /* cheeseSelectedPage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cheeseSelectedPage.png; sourceTree = "<group>"; };
+		47A21F27179280B000BA4E15 /* wineSelectedPage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wineSelectedPage.png; sourceTree = "<group>"; };
+		47A21F29179280B700BA4E15 /* switchWCselected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = switchWCselected.png; sourceTree = "<group>"; };
+		47A21F2B179280BD00BA4E15 /* switchWCunselected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = switchWCunselected.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		474BE0E81776D05500A07865 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				474BE0EF1776D05500A07865 /* UIKit.framework in Frameworks */,
+				474BE0F11776D05500A07865 /* Foundation.framework in Frameworks */,
+				474BE0F31776D05500A07865 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		474BE1101776D05600A07865 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				474BE1161776D05600A07865 /* SenTestingKit.framework in Frameworks */,
+				474BE1171776D05600A07865 /* UIKit.framework in Frameworks */,
+				474BE1181776D05600A07865 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		474BE0E21776D05500A07865 = {
+			isa = PBXGroup;
+			children = (
+				47A21F191792536200BA4E15 /* newWineIcon@2x.png */,
+				47A21F171792535E00BA4E15 /* newWineIcon.png */,
+				474BE0F41776D05500A07865 /* Estheryan */,
+				474BE11B1776D05600A07865 /* EstheryanTests */,
+				474BE0ED1776D05500A07865 /* Frameworks */,
+				474BE0EC1776D05500A07865 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		474BE0EC1776D05500A07865 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				474BE0EB1776D05500A07865 /* Estheryan.app */,
+				474BE1141776D05600A07865 /* EstheryanTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		474BE0ED1776D05500A07865 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				474BE0EE1776D05500A07865 /* UIKit.framework */,
+				474BE0F01776D05500A07865 /* Foundation.framework */,
+				474BE0F21776D05500A07865 /* CoreGraphics.framework */,
+				474BE1151776D05600A07865 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		474BE0F41776D05500A07865 /* Estheryan */ = {
+			isa = PBXGroup;
+			children = (
+				474BE0FD1776D05500A07865 /* ERAppDelegate.h */,
+				474BE0FE1776D05500A07865 /* ERAppDelegate.m */,
+				474BE1061776D05600A07865 /* ERViewController.h */,
+				474BE1071776D05600A07865 /* ERViewController.m */,
+				474BE1091776D05600A07865 /* ERViewController_iPhone.xib */,
+				47A21F2217925FB100BA4E15 /* Pages */,
+				474BE0F51776D05500A07865 /* Supporting Files */,
+			);
+			path = Estheryan;
+			sourceTree = "<group>";
+		};
+		474BE0F51776D05500A07865 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				47A21F0C1792514000BA4E15 /* Images */,
+				474BE0F61776D05500A07865 /* Estheryan-Info.plist */,
+				474BE0F71776D05500A07865 /* InfoPlist.strings */,
+				474BE0FA1776D05500A07865 /* main.m */,
+				474BE0FC1776D05500A07865 /* Estheryan-Prefix.pch */,
+				474BE1001776D05500A07865 /* Default.png */,
+				474BE1021776D05500A07865 /* Default@2x.png */,
+				474BE1041776D05500A07865 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		474BE11B1776D05600A07865 /* EstheryanTests */ = {
+			isa = PBXGroup;
+			children = (
+				474BE1211776D05600A07865 /* EstheryanTests.h */,
+				474BE1221776D05600A07865 /* EstheryanTests.m */,
+				474BE11C1776D05600A07865 /* Supporting Files */,
+			);
+			path = EstheryanTests;
+			sourceTree = "<group>";
+		};
+		474BE11C1776D05600A07865 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				474BE11D1776D05600A07865 /* EstheryanTests-Info.plist */,
+				474BE11E1776D05600A07865 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		47A21F0C1792514000BA4E15 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				47A21F231792809000BA4E15 /* Pages */,
+				47A21F131792530F00BA4E15 /* newWineIcon.png */,
+				47A21F151792535400BA4E15 /* newWineIcon@2x.png */,
+				47A21F0A179128E000BA4E15 /* wooden-background.png */,
+				474BE13A1776DEBE00A07865 /* brie1.png */,
+				474BE13C1776DEE500A07865 /* Unusual-Wine-Food-Pairings-.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		47A21F2217925FB100BA4E15 /* Pages */ = {
+			isa = PBXGroup;
+			children = (
+				47A21F2E179297DD00BA4E15 /* Pictures Page */,
+				47A21F2D179297B200BA4E15 /* WineCheese Page */,
+			);
+			name = Pages;
+			sourceTree = "<group>";
+		};
+		47A21F231792809000BA4E15 /* Pages */ = {
+			isa = PBXGroup;
+			children = (
+				47A21F241792809600BA4E15 /* WCpage */,
+			);
+			name = Pages;
+			sourceTree = "<group>";
+		};
+		47A21F241792809600BA4E15 /* WCpage */ = {
+			isa = PBXGroup;
+			children = (
+				47A21F27179280B000BA4E15 /* wineSelectedPage.png */,
+				47A21F25179280A800BA4E15 /* cheeseSelectedPage.png */,
+				47A21F29179280B700BA4E15 /* switchWCselected.png */,
+				47A21F2B179280BD00BA4E15 /* switchWCunselected.png */,
+			);
+			name = WCpage;
+			sourceTree = "<group>";
+		};
+		47A21F2D179297B200BA4E15 /* WineCheese Page */ = {
+			isa = PBXGroup;
+			children = (
+				47A21F1D17925EC700BA4E15 /* ERWineCheesePageViewController.h */,
+				47A21F1E17925EC700BA4E15 /* ERWineCheesePageViewController.m */,
+				47A21F1F17925EC700BA4E15 /* ERWineCheesePageViewController.xib */,
+				47A21F07178FAC9300BA4E15 /* ERWineCheesePairings.h */,
+				47A21F08178FAC9300BA4E15 /* ERWineCheesePairings.m */,
+				474BE12C1776D84000A07865 /* ERWineViewController.h */,
+				474BE12D1776D84000A07865 /* ERWineViewController.m */,
+				474BE12E1776D84000A07865 /* ERWineViewController.xib */,
+				47A21EFD178F852F00BA4E15 /* ERWineToCheeseViewController.h */,
+				47A21EFE178F852F00BA4E15 /* ERWineToCheeseViewController.m */,
+				47A21EFF178F852F00BA4E15 /* ERWineToCheeseViewController.xib */,
+				47A21F02178F853900BA4E15 /* ERCheeseToWineViewController.h */,
+				47A21F03178F853900BA4E15 /* ERCheeseToWineViewController.m */,
+				47A21F04178F853900BA4E15 /* ERCheeseToWineViewController.xib */,
+				474BE1311776D84D00A07865 /* ERCheeseViewController.h */,
+				474BE1321776D84D00A07865 /* ERCheeseViewController.m */,
+				474BE1331776D84D00A07865 /* ERCheeseViewController.xib */,
+				474BE10C1776D05600A07865 /* ERViewController_iPad.xib */,
+			);
+			name = "WineCheese Page";
+			sourceTree = "<group>";
+		};
+		47A21F2E179297DD00BA4E15 /* Pictures Page */ = {
+			isa = PBXGroup;
+			children = (
+				47A21EF8178E285D00BA4E15 /* ERPicturesViewController.h */,
+				47A21EF9178E285D00BA4E15 /* ERPicturesViewController.m */,
+				47A21EFA178E285D00BA4E15 /* ERPicturesViewController.xib */,
+			);
+			name = "Pictures Page";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		474BE0EA1776D05500A07865 /* Estheryan */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 474BE1261776D05600A07865 /* Build configuration list for PBXNativeTarget "Estheryan" */;
+			buildPhases = (
+				474BE0E71776D05500A07865 /* Sources */,
+				474BE0E81776D05500A07865 /* Frameworks */,
+				474BE0E91776D05500A07865 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Estheryan;
+			productName = Estheryan;
+			productReference = 474BE0EB1776D05500A07865 /* Estheryan.app */;
+			productType = "com.apple.product-type.application";
+		};
+		474BE1131776D05600A07865 /* EstheryanTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 474BE1291776D05600A07865 /* Build configuration list for PBXNativeTarget "EstheryanTests" */;
+			buildPhases = (
+				474BE10F1776D05600A07865 /* Sources */,
+				474BE1101776D05600A07865 /* Frameworks */,
+				474BE1111776D05600A07865 /* Resources */,
+				474BE1121776D05600A07865 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				474BE11A1776D05600A07865 /* PBXTargetDependency */,
+			);
+			name = EstheryanTests;
+			productName = EstheryanTests;
+			productReference = 474BE1141776D05600A07865 /* EstheryanTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		474BE0E31776D05500A07865 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = ER;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = Estheryan;
+			};
+			buildConfigurationList = 474BE0E61776D05500A07865 /* Build configuration list for PBXProject "Estheryan" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 474BE0E21776D05500A07865;
+			productRefGroup = 474BE0EC1776D05500A07865 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				474BE0EA1776D05500A07865 /* Estheryan */,
+				474BE1131776D05600A07865 /* EstheryanTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		474BE0E91776D05500A07865 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				474BE0F91776D05500A07865 /* InfoPlist.strings in Resources */,
+				474BE1011776D05500A07865 /* Default.png in Resources */,
+				474BE1031776D05500A07865 /* Default@2x.png in Resources */,
+				474BE1051776D05500A07865 /* Default-568h@2x.png in Resources */,
+				474BE10B1776D05600A07865 /* ERViewController_iPhone.xib in Resources */,
+				474BE10E1776D05600A07865 /* ERViewController_iPad.xib in Resources */,
+				474BE1301776D84000A07865 /* ERWineViewController.xib in Resources */,
+				474BE1351776D84D00A07865 /* ERCheeseViewController.xib in Resources */,
+				474BE13B1776DEBE00A07865 /* brie1.png in Resources */,
+				474BE13D1776DEE500A07865 /* Unusual-Wine-Food-Pairings-.png in Resources */,
+				47A21EFC178E285D00BA4E15 /* ERPicturesViewController.xib in Resources */,
+				47A21F01178F852F00BA4E15 /* ERWineToCheeseViewController.xib in Resources */,
+				47A21F06178F853900BA4E15 /* ERCheeseToWineViewController.xib in Resources */,
+				47A21F0B179128E000BA4E15 /* wooden-background.png in Resources */,
+				47A21F141792530F00BA4E15 /* newWineIcon.png in Resources */,
+				47A21F161792535400BA4E15 /* newWineIcon@2x.png in Resources */,
+				47A21F181792535E00BA4E15 /* newWineIcon.png in Resources */,
+				47A21F1A1792536200BA4E15 /* newWineIcon@2x.png in Resources */,
+				47A21F2117925EC700BA4E15 /* ERWineCheesePageViewController.xib in Resources */,
+				47A21F26179280A800BA4E15 /* cheeseSelectedPage.png in Resources */,
+				47A21F28179280B000BA4E15 /* wineSelectedPage.png in Resources */,
+				47A21F2A179280B700BA4E15 /* switchWCselected.png in Resources */,
+				47A21F2C179280BD00BA4E15 /* switchWCunselected.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		474BE1111776D05600A07865 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				474BE1201776D05600A07865 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		474BE1121776D05600A07865 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		474BE0E71776D05500A07865 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				474BE0FB1776D05500A07865 /* main.m in Sources */,
+				474BE0FF1776D05500A07865 /* ERAppDelegate.m in Sources */,
+				474BE1081776D05600A07865 /* ERViewController.m in Sources */,
+				474BE12F1776D84000A07865 /* ERWineViewController.m in Sources */,
+				474BE1341776D84D00A07865 /* ERCheeseViewController.m in Sources */,
+				47A21EFB178E285D00BA4E15 /* ERPicturesViewController.m in Sources */,
+				47A21F00178F852F00BA4E15 /* ERWineToCheeseViewController.m in Sources */,
+				47A21F05178F853900BA4E15 /* ERCheeseToWineViewController.m in Sources */,
+				47A21F09178FAC9300BA4E15 /* ERWineCheesePairings.m in Sources */,
+				47A21F2017925EC700BA4E15 /* ERWineCheesePageViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		474BE10F1776D05600A07865 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				474BE1231776D05600A07865 /* EstheryanTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		474BE11A1776D05600A07865 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 474BE0EA1776D05500A07865 /* Estheryan */;
+			targetProxy = 474BE1191776D05600A07865 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		474BE0F71776D05500A07865 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				474BE0F81776D05500A07865 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		474BE1091776D05600A07865 /* ERViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				474BE10A1776D05600A07865 /* en */,
+			);
+			name = ERViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		474BE10C1776D05600A07865 /* ERViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				474BE10D1776D05600A07865 /* en */,
+			);
+			name = ERViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+		474BE11E1776D05600A07865 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				474BE11F1776D05600A07865 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		474BE1241776D05600A07865 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		474BE1251776D05600A07865 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		474BE1271776D05600A07865 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Estheryan/Estheryan-Prefix.pch";
+				INFOPLIST_FILE = "Estheryan/Estheryan-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		474BE1281776D05600A07865 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Estheryan/Estheryan-Prefix.pch";
+				INFOPLIST_FILE = "Estheryan/Estheryan-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		474BE12A1776D05600A07865 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Estheryan.app/Estheryan";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Estheryan/Estheryan-Prefix.pch";
+				INFOPLIST_FILE = "EstheryanTests/EstheryanTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		474BE12B1776D05600A07865 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Estheryan.app/Estheryan";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Estheryan/Estheryan-Prefix.pch";
+				INFOPLIST_FILE = "EstheryanTests/EstheryanTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		474BE0E61776D05500A07865 /* Build configuration list for PBXProject "Estheryan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				474BE1241776D05600A07865 /* Debug */,
+				474BE1251776D05600A07865 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		474BE1261776D05600A07865 /* Build configuration list for PBXNativeTarget "Estheryan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				474BE1271776D05600A07865 /* Debug */,
+				474BE1281776D05600A07865 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		474BE1291776D05600A07865 /* Build configuration list for PBXNativeTarget "EstheryanTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				474BE12A1776D05600A07865 /* Debug */,
+				474BE12B1776D05600A07865 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 474BE0E31776D05500A07865 /* Project object */;
+}
